@@ -1,7 +1,10 @@
+import NavBar from "./components/NavBar";
+
 function App() {
   return (
     <>
-      <main className="bg-neutral-100 min-h-[200vh]">page content</main>;
+      <NavBar />
+      <main className="bg-neutral-100 min-h-[200vh]">page content</main>
     </>
   );
 }
